@@ -29,16 +29,16 @@ ul li a {
   text-decoration: none;
 }
 
-.lasagna {
+.main-menu {
   width: 50%;
   margin: 0 auto;
 }
 
-.lasagna img {
+.main-menu img {
   border-radius: 50px;
 }
 
-.lasagna ul,
+.main-menu ul,
 ol {
   text-align: left;
 }
@@ -47,11 +47,16 @@ ol {
   padding: 15px;
 }
 
+.recipes span {
+  display: inline-block;
+  margin-top: 10px;
+}
+
 .recipes.steps {
   margin-bottom: 100px;
 }
 
-.lasagna h1,
+.main-menu h1,
 h2,
 p,
 img {
@@ -61,23 +66,23 @@ img {
   padding: 10px;
 }
 
-.lasagna h1 {
+.main-menu h1 {
   padding: 30px;
 }
 
-.lasagna img {
+.main-menu img {
   margin: 0 auto;
   max-width: 100%;
 }
 
-.lasagna__footer {
+.main-menu__footer {
   text-align: center;
   padding: 30px;
   color: #fff;
   text-decoration: none;
 }
 
-.lasagna__footer a {
+.main-menu__footer a {
   text-decoration: none;
   color: #fff;
 }
