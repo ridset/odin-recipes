@@ -21,6 +21,7 @@ header h1 {
   padding: 50px;
   display: grid;
   place-items: center;
+  font-size: 3rem;
 }
 
 ul li a {
@@ -60,9 +61,8 @@ img {
   padding: 10px;
 }
 
-.lasagna h1,
-h2 {
-  padding: 20px;
+.lasagna h1 {
+  padding: 30px;
 }
 
 .lasagna img {
@@ -82,18 +82,47 @@ h2 {
   color: #fff;
 }
 
-.home__menu {
-  text-align: center;
-  background-color: #343a40;
-}
-
 .home__menu ul {
   list-style-type: none;
 }
 
 .home__menu--list a {
-  padding: 50px;
-  display: grid;
-  place-items: center;
   font-size: 2rem;
+}
+
+.home__menu--list a:hover {
+  color: #000000;
+}
+
+.homepage__container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.homepage__image img {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+}
+
+.homepage__link ul {
+  list-style-type: none;
+}
+
+.home__menu--list:nth-child(even) {
+  background-color: #582233;
+  height: 33.3%;
+  margin: auto;
+}
+
+.home__menu--list:nth-child(odd) {
+  background-color: #713045;
+  height: 33.3%;
+  margin: auto;
+}
+
+.home__menu--list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
